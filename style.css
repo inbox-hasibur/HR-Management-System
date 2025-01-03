@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+    background-color: #f5f7fc;
+    padding: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo {
+    background-color: #3d58c4;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.left-section h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.left-section p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.footer-text {
+    margin-top: auto;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* Right Section */
+.right-section {
+    padding: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.right-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.right-section p {
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.role-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.role-buttons button {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.role-buttons button:hover {
+    background-color: #3d58c4;
+    color: white;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.action-buttons button {
+    padding: 0.8rem 1.5rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-buttons .sign-in {
+    background-color: #3d58c4;
+    color: white;
+    border: none;
+}
+
+.action-buttons .sign-in:hover {
+    background-color: #2c448f;
+}
